@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include glenmargon_backend *.css
+recursive-include glenmargon_backend *.csv
+recursive-include glenmargon_backend *.html
+recursive-include glenmargon_backend *.ico
+recursive-include glenmargon_backend *.js
+recursive-include glenmargon_backend *.json
+recursive-include glenmargon_backend *.md
+recursive-include glenmargon_backend *.png
+recursive-include glenmargon_backend *.py
+recursive-include glenmargon_backend *.svg
+recursive-include glenmargon_backend *.txt
+recursive-exclude glenmargon_backend *.pyc
