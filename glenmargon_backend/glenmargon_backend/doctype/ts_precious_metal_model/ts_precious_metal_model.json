@@ -1,25 +1,30 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-01-12 13:26:40.163336",
+ "autoname": "field:ts_pre_model",
+ "creation": "2022-01-12 15:48:18.385414",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data_1"
+  "ts_pre_model"
  ],
  "fields": [
   {
-   "fieldname": "data_1",
-   "fieldtype": "Data"
+   "fieldname": "ts_pre_model",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type Precious Metal Model",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-12 13:26:40.163336",
+ "modified": "2022-01-12 15:52:15.244748",
  "modified_by": "Administrator",
- "module": "glenmargon-backend",
- "name": "aa",
+ "module": "glenmargon_backend",
+ "name": "TS Precious Metal Model",
  "owner": "Administrator",
  "permissions": [
   {
@@ -35,6 +40,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC"
 }

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class Testaa(unittest.TestCase):
+class TestTSMovableList(unittest.TestCase):
 	pass
